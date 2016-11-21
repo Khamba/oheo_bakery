@@ -1,0 +1,5 @@
+<div class="product-wrapper">
+  <%= link_to(image_tag(product.product_images.first.image_url, class: 'index-image', alt: ' '), product) %>
+  <h5><%= product.name %></h5>
+  <span class="left">Price: <%= product.price %></span>
+</div>
