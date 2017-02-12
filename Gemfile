@@ -65,3 +65,5 @@ gem 'omniauth-facebook'
 
 gem "pundit"
 gem "font-awesome-rails"
+
+gem 'passenger', group: :production
