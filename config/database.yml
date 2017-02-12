@@ -83,5 +83,5 @@ production:
   database: oheo_bakery_production
   username: oheo_bakery
   password: <%= ENV['OHEO_BAKERY_DATABASE_PASSWORD'] %>
-  host: oheobakery.csx4kwa8gwm7.ap-south-1.rds.amazonaws.com
+  host: localhost
   port: 5432
