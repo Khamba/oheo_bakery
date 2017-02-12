@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Architects+Daughter|Courgette|Damion|Dancing+Script|Droid+Sans|Droid+Serif|Great+Vibes|Karla|Kaushan+Script|Lato|Lobster|Lobster+Two|Nunito|Oleo+Script|Open+Sans|PT+Sans|Pacifico|Pattaya|Permanent+Marker|Playball|Roboto|Roboto+Condensed|Sansita|Satisfy|Shadows+Into+Light|Shadows+Into+Light+Two|Shrikhand|Slabo+27px|Source+Sans+Pro|Yellowtail');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Allan|Anton|Bad+Script|Coiny|Damion|Farsan|Fugaz+One|Grand+Hotel|Leckerli+One|Marck+Script|Niconne|Shrikhand');
+
+/*
+Color codes in botstrap
+	#d9534f 	(217,83,79)
+	#f9f9f9 	(249,249,249)
+	#5bc0de 	(91,192,222)
+	#5cb85c 	(92,184,92)
+	#428bca 	(66,139,202)
+*/
+html,body{
+	height: 100%;
+}
+body{
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	color: #6c6f73;
+}
+img{
+	max-width: 100%;
+}
+
+body#homepage #navbar_items .btn-danger {
+    color: #fff;
+    background-color: #ff3232;
+    border-color: #ff3232;
+		font-weight: bold;
+}
+body#homepage #navbar_items .btn-danger:hover{
+	cursor: pointer;
+	background-color: white;
+	border-color:  #ff3232;
+	color: #ff3232;
+	font-weight: bold;
+}
+
+body#homepage #brand_name{
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	font-weight: bold;
+}
+body#homepage #navbar_items{
+	font-family: 'Arvo', serif;
+	font-weight: bold;
+}
+body#homepage #footer_line{
+  background: #ff0000;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+  font-family: 'Droid Sans', sans-serif;
+}
+body#homepage #footer_line a{
+  color: white;
+}
+
+body#homepage #aboutus h2{
+	text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 10px;
+	color: black;
+	font-size: 33px;
+	padding: 10px;
+}
+
+body#homepage #aboutus p{
+	margin-bottom: 15px;
+
+}
+
+body#homepage #aboutus button{
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #ff3232;
+	border-color: #ff3232;
+}
+body#homepage #aboutus button:hover{
+	background-color: #ff3232;
+	color: white;
+	cursor: pointer;
+}
+
+body#homepage .blockquote{
+	font-size: 106rem;
+	color: #333;
+	border: none;
+	padding: 0;
+}
+body#homepage .blockquote-footer{
+	margin: 1rem 0 0;
+}
+
+body#homepage #coverpage{
+	/*background: url("img/cake5.jpg") center center no-repeat;
+	*/background-size: cover;
+	height: 80%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+body#homepage #coverpage_caption{
+	font-size: 1.4rem;
+	font-weight: 200;
+	max-width: 60rem;
+	margin: 0 auto;
+	text-align: center;
+}
+body#homepage #coverpage_caption h1{
+	font-family: 'Lobster', cursive;
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+}
+body#homepage #coverpage_caption p{
+	color: white;
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+}
+
+body#homepage hr.style1:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #8c8b8b;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+body#homepage hr.style2 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+/*Testimonials start*/
+
+/*Testimonials ends*/
+/*=====Footer start=====*/
+body#homepage #footer{
+	background: white;
+}
+body#homepage #footer_oheo{
+	font-family: 'Pacifico', cursive;
+	color: white;
+	margin-top:5px;
+	margin-bottom: 0px;
+}
+body#homepage #footer_lines{
+	color: white;
+	margin-left: 50px;
+	font-size: 20px;
+	font-family: 'Allan', cursive;
+}
+body#homepage footer{
+	background-color: #ff3232;
+	padding-top: 10px;
+}
+body#homepage #categories_footer a{
+	color: white;
+	list-style: none;
+
+}
+body#homepage #links_footer a{
+	color: white;
+	list-style: none;
+}
+body#homepage #footer_cat_head{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+body#homepage #footer_links_head{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+body#homepage #footer_madeby,#footer_madeby a{
+	color: white;
+	margin-top: 50px;
+}
+/*=====Footer end=====*/
+
+/*==Contact_footer start==*/
+body#homepage #footer_mail_head{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+}
+body#homepage #footer_mail_link{
+	color: white;
+	margin-bottom: 20px;
+
+}
+body#homepage #footer_phone_head{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-decoration: underline;
+}
+body#homepage #footer_phone_link{
+	color: white;
+	margin-bottom: 10px;
+}
+body#homepage #footer_folowus_head{
+	margin-bottom: 10px;
+	margin-top: 20px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;
+
+}
+body#homepage #footer_social_fb{
+	margin-right: 5px;
+}
+body#homepage #footer_social_g+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+body#homepage #footer_social_tweeter{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+body#homepage #footer_social_insta{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+/*==Contact_footer end==*/
+
+
+/*vertical line divider start*/
+/*vertical line divider end*/
+
+/*Contact us start*/
+body#homepage #contactus h2{
+	text-decoration: underline;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	color: black;
+	font-size: 33px;
+	padding: 10px;
+}
+
+body#homepage #contact_form .btn-danger {
+    color: #fff;
+    background-color: #ff3232;
+    border-color: #ff3232;
+		font-weight: bold;
+}
+body#homepage #contact_form .btn-danger:hover{
+	cursor: pointer;
+	background-color: white;
+	border-color:  #ff3232;
+	color: #ff3232;
+}
+/*Contact us end*/

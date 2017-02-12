@@ -55,8 +55,6 @@ gem 'annotate'
 
 gem 'carrierwave'
 
-gem 'materialize-sass'
-
 gem 'simple_form'
 
 gem "jquery-slick-rails"
@@ -66,3 +64,4 @@ gem "omniauth-google-oauth2"
 gem 'omniauth-facebook'
 
 gem "pundit"
+gem "font-awesome-rails"

@@ -1,16 +1,228 @@
-<div id="banner-container">
-  <div class="row">
-    <div class="col s5 offset-s1 banner valign-wrapper" id="pastries-banner">
-      <div class="valign button-container">
-        <h3>CAKES</h3>
-        <a class="waves-effect waves-light btn" href="/pastries">Browse</a>
-      </div>
-    </div>
-    <div class="col s5 banner valign-wrapper" id="delicacies-banner">
-      <div class="valign button-container">
-        <h3>DELICACIES</h3>
-        <a class="waves-effect waves-light btn" href="/delicacies">Browse</a>
-      </div>
+<body id="homepage">
+
+  <!--===================Navbar start============================-->
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar_main" aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="index.html" id="brand_name">Oheo</a>
+
+  <div class="collapse navbar-collapse" id="navbar_main">
+    <ul class="navbar-nav mr-auto mt-2 mt-md-0" id="navbar_items">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="products_dropdown">
+          <a class="dropdown-item" href="#">Cakes & Pastry</a>
+          <a class="dropdown-item" href="#">Fruits & vegetables</a>
+          <a class="dropdown-item" href="#">Grocery</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Our team</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact us</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btn-danger" href="#">Sign-in/Login</a>
+      </li>
+
+
+    </ul>
+
+  </div>
+</nav>
+  <!--===================Navbar end============================-->
+  <!--===================Cover-page start============================-->
+  <div id="coverpage" style="background-image: url('img/cake24.jpg');">
+    <div id="coverpage_caption">
+      <h1 class="display-3">Taste of happiness</h1>
+      <p>Cover is a one-page template for building simple and beautiful home pages.</p>
+      <a href="" class="btn btn-lg btn-secondary" id="order_now_cover">Order Now</a>
     </div>
   </div>
-</div>
+  <!--===================Cover-page end============================--><!--===================About us end============================-->
+  <div class="container">
+  <div class="page-header" id="aboutus">
+    <h2>About us</h2>
+    <hr class="divider">
+    <p class="lead">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+    <button class="btn btn-outline-danger">Read more...</button>
+  </div>
+  <hr class="style2">
+  </div>
+
+  <!--===================About us end============================-->
+  <!--===================Testimonials start============================-->
+  <div class="container" id="testimonials">
+    <div class="page-header">
+      <h2>Testimonials</h2>
+    </div>
+    <div class="row">
+<div class="col-sm-1"></div>
+   <div class="col-sm-10">
+     <div id="testimonials_carousal" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+
+    <div class="carousel-item active">
+      <div class="col-sm-12">
+        <img class="rounded-circle" src="img/jac3.jpg" alt="user1" width="140" height="140">
+        <h5 style="text-align: center">Heading</h5>
+       <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.!</p>
+      </div>
+   </div>
+
+    <div class="carousel-item">
+      <div class="col-sm-12">
+       <img class="rounded-circle" src="img/pic1.jpg" alt="user2" width="140" height="140">
+       <h5 style="text-align: center">Heading</h5>
+       <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.!</p>
+     </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="col-sm-12">
+        <img class="rounded-circle" src="img/jac4.jpg" alt="user3" width="140" height="140">
+        <h5 style="text-align: center">Heading</h5>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.!</p>
+      </div>
+    </div>
+
+  </div>
+
+     <a class="carousel-control-prev" href="#testimonials_carousal" role="button" data-slide="prev">
+       <i class="fa fa-chevron-left fa-2x" aria-hidden="false"></i>
+     </a>
+     <a class="carousel-control-next" href="#testimonials_carousal" role="button" data-slide="next">
+       <i class="fa fa-chevron-right fa-2x" aria-hidden="false"></i>
+     </a>
+        </div>
+     </div>
+    </div>
+    <hr class="style2">
+  </div>
+
+
+  <!--===================Testimonials end============================-->
+  <!--===================Contact form start============================-->
+  <div class="container" id="contactus">
+    <h2>Contact us</h2>
+    <h5 style="text-align:center;">We will reach out to you as soon as possible...</h5>
+    <hr class="divider">
+    <div class="row">
+      <div class="col-sm-3"></div>
+
+      <div class="col-sm-6">
+        <form class="" id="contact_form" action="#" method="POST">
+
+          <div class="form-group">
+            <label for="form_name">Your Name</label>
+            <input type="text" class="form-control" id="form_name"name="contactform_name" value="" placeholder="">
+          </div>
+
+          <div class="form-group">
+          <label for="form_phone">Your phone</label>
+           <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+           <div class="input-group-addon">+91</div>
+            <input type="tel" class="form-control" id="form_phone" placeholder="">
+          </div>
+          </div>
+
+          <div class="form-group">
+            <label for="form_email">Your Email</label>
+            <input type="email" class="form-control" id="form_email" name="contactform_email" value="" placeholder="">
+          </div>
+
+          <div class="form-group">
+            <label for="form_message">Your Message</label>
+            <textarea class="form-control input-sm" name="contactform_message" rows="6" cols="80" id="form_message" placeholder=""></textarea>
+          </div>
+
+          <button type="submit" name="contactform_submit" class="btn btn-danger" id="form_submit">Send Message</button>
+            </form>
+          </div>
+
+          <div class="col-sm-3"></div>
+        </div>
+        <hr class="style2">
+    </div>
+
+
+
+  </div>
+  <!--===================Conatct form end============================-->
+
+  <!--===================Footer start============================-->
+    <footer class="container-fluid">
+      <div class="container" id="footer_container">
+      <!--<h3 id="footer_oheo">Oheo</h3>
+      <p id="footer_lines">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. </p> -->
+
+      <div class="row">
+        <div class="col-sm-4">
+          <h1 class="display-4" id="footer_oheo">Oheo</h1>
+          <p id="footer_lines">Love in every bite...</p>
+          <p id="footer_madeby">Crafted with &hearts; in India by <a href="index.html">Oheo</a>
+          </p>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="row">
+          <div class="col-sm-6">
+          <h6 id="footer_cat_head">Categories</h6>
+          <ul  class="list-unstyled" id="categories_footer">
+            <li><a href="#">Chocolate</a></li>
+            <li><a href="#">Vanilla</a></li>
+            <li><a href="#">Pineapple</a></li>
+            <li><a href="#">Strawberry</a></li>
+            <li><a href="#">Mixed fruit</a></li>
+            <li><a href="#">New releases</a></li>
+          </ul>
+          </div>
+          <div class="col-sm-6">
+          <h6 id="footer_links_head">Useful links</h6>
+          <ul class="list-unstyled" class="unstyled" id="links_footer">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Privacy policies</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li><a href="#">Terms & conditions</a></li>
+            <li><a href="#">Privacy policies</a></li>
+          </ul>
+          </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+        <h6 id="footer_mail_head">Support & Enquiry</h6>
+        <i class="fa fa-1x fa-envelope" aria-hidden="true" style="color:white"></i>
+        <a id="footer_mail_link" href="">support@oheo.in</a>
+
+        <h6 id="footer_phone_head">Get in touch</h6>
+        <i class="fa fa-1x fa-phone" aria-hidden="true"  style="color:white"></i>
+        <a id="footer_phone_link" href="">+91 9730807012</a>
+
+        <h6 id="footer_folowus_head">Follow us</h6>
+        <a href="#"><i class="fa fa-2x fa-facebook-official" aria-hidden="true" style="color:white" id="footer_social_fb"></i>
+        </a>
+        <a href="#"><i class="fa fa-2x fa-google-plus" aria-hidden="true" style="color:white" id="footer_social_g+"></i>
+        </a>
+        <a href="#"><i class="fa fa-2x fa-twitter" aria-hidden="true" style="color:white" id="footer_social_tweeter"></i></a>
+        <a href="#"><i class="fa fa-2x fa-instagram" aria-hidden="true" style="color:white" id="footer_social_insta"></i>
+        </a>
+        </div>
+
+
+
+      </div>
+
+      </div>
+    </footer>
+</body>
